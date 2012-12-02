@@ -63,7 +63,7 @@ class Twig_Loader_Kohana implements Twig_LoaderInterface
 		$file = pathinfo($name);
 		
 		// Full path to the file.
-		$path = Kohana::find_file('views', $file['dirname'].DIRECTORY_SEPARATOR.$file['filename'], $file['extension']);
+		$path = Kohana::find_file('views/twig', $file['dirname'].DIRECTORY_SEPARATOR.$file['filename'], $file['extension']);
 
 		if (FALSE === $path)
 		{
