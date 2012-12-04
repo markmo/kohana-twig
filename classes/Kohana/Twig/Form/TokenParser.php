@@ -14,6 +14,6 @@ class Kohana_Twig_Form_TokenParser extends Kohana_Twig_Helper_TokenParser
 	 */
 	public function getTag()
 	{
-		return 'form';
+		return 'Form';
 	}
 }

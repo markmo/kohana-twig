@@ -33,6 +33,6 @@ class Kohana_Twig_Request_TokenParser extends Twig_TokenParser
 	 */
 	public function getTag()
 	{
-		return 'request';
+		return 'Request';
 	}
 }

@@ -50,7 +50,7 @@ class Kohana_Twig_Cache_TokenParser extends Twig_TokenParser
 	 */
 	public function getTag()
 	{
-		return 'cache';
+		return 'Cache';
 	}
 	
 	/**

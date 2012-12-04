@@ -42,6 +42,6 @@ class Kohana_Twig_URL_TokenParser extends Twig_TokenParser
 	 */
 	public function getTag()
 	{
-		return 'url';
+		return 'URL';
 	}
 }
