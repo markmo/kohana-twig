@@ -61,6 +61,7 @@ abstract class Kohana_Controller_Template_Twig extends Controller
 	 */
 	public function after()
 	{
+//		$this->template->sessionData = Session::instance()->getData();
 		if ($this->auto_render)
 		{
 			// Auto-render the template

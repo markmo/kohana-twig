@@ -55,7 +55,7 @@ return array
 		'loader' => array
 		(
 			'class' => 'Twig_Loader_Kohana',
-			'extension' => 'html',
+			'extension' => 'html.twig',
 			'options' => array(),
 		),
 		'extensions' => array
