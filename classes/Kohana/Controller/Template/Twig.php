@@ -35,7 +35,7 @@ abstract class Kohana_Controller_Template_Twig extends Controller
 			$this->template = str_replace('_', DIRECTORY_SEPARATOR, $this->request->controller()).DIRECTORY_SEPARATOR.$this->request->action();
 
 			$directory = $this->request->directory();
-			
+
 			if ( ! empty($directory))
 			{
 				$this->template = $this->request->directory().DIRECTORY_SEPARATOR.$this->template;
@@ -61,7 +61,6 @@ abstract class Kohana_Controller_Template_Twig extends Controller
 	 */
 	public function after()
 	{
-//		$this->template->sessionData = Session::instance()->getData();
 		if ($this->auto_render)
 		{
 			// Auto-render the template
