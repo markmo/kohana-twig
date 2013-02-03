@@ -1,4 +1,4 @@
-sku<?php defined('SYSPATH') or die('No direct script access.');
+<?php defined('SYSPATH') or die('No direct script access.');
 
 /**
  * Class for managing Twig contexts as arrays

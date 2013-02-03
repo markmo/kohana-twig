@@ -11,15 +11,15 @@ return array
 			 * trim_blocks         : The first newline after a template tag is removed
 			 * charset             : Self explanatory
 			 * base_template_class : Template name to use in the compiled classes.
-			 * 
+			 *
 			 * cache
 			 *  null  : Will create a directory under the temporary system directory.
 			 *  false : Turn off caching all-together.
 			 *  path  : Absolute path to cache directory (enabled).
-			 * 
+			 *
 			 * auto_reload : Update the template when the source code changes
 			 */
-			'debug'               => FALSE,
+			'debug'               => TRUE,
 			'trim_blocks'         => FALSE,
 			'charset'             => 'utf-8',
 			'base_template_class' => 'Twig_Template',
@@ -63,6 +63,7 @@ return array
 			'Twig_Extension_Escaper',
 			'Kohana_Twig_Extensions',
 			'Twig_Extension_Optimizer',
+			'Twig_Extension_Debug',
 		),
 	),
 );
