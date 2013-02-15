@@ -19,7 +19,7 @@ return array
 			 *
 			 * auto_reload : Update the template when the source code changes
 			 */
-			'debug'               => TRUE,
+			'debug'               => FALSE,
 			'trim_blocks'         => FALSE,
 			'charset'             => 'utf-8',
 			'base_template_class' => 'Twig_Template',
@@ -63,7 +63,7 @@ return array
 			'Twig_Extension_Escaper',
 			'Kohana_Twig_Extensions',
 			'Twig_Extension_Optimizer',
-			'Twig_Extension_Debug',
+			//'Twig_Extension_Debug',
 		),
 	),
 );
